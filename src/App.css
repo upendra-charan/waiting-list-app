@@ -1,0 +1,136 @@
+.app-container, .form-container, .message-container, .waitlist-container {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.waitlist-container {
+  width: 80%;
+  margin: auto;
+}
+
+.form-container {
+  width: 90%;
+  padding: 20px;
+  margin-top: 40px;
+  max-width: 400px;
+  border-radius: 8px;
+  background: white;
+  box-shadow: 2px 4px 5px 6px rgba(0, 0, 0, 0.1);
+}
+
+.message-container {
+  width: 90%;
+  padding: 20px;
+  margin-top: 30px;
+  max-width: 400px;
+  border-radius: 8px;
+  padding-bottom: 2px;
+  background: white;
+  box-shadow: 2px 4px 5px 6px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  margin: 0;
+  display: block;
+}
+
+.logo-container {
+  margin-bottom: 0;
+}
+
+.app-logo {
+  max-width: 200px;
+  max-height: 100px;
+}
+
+.trademark-line {
+  color: #666;
+  font-size: 5px;
+  margin-top: 2px;
+  text-align: left;
+  align-self: flex-start;
+
+}
+
+h2 {
+  margin-bottom: 20px;
+  margin-top: 0;
+}
+
+input {
+  width: 90%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+button {
+  width: 100%;
+  border: none;
+  color: white;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 4px;
+  background-color: #ff00bf;
+}
+
+button:hover {
+  background-color: #d900a0;
+}
+
+.error-message {
+  color: red;
+  margin-top: 10px;
+}
+
+.waitlist-layout {
+  gap: 20px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  justify-content: space-around; 
+}
+
+.waitlist {
+  width: 45%;
+  padding: 15px;
+  text-align: left;
+  border-radius: 8px;
+  background: #FF00BF;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  background: #eee;
+  margin: 5px 0;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.view-button {
+  margin-top: 10px;
+}
+
+.go-button {
+  border: none;
+  color: white;
+  cursor: pointer;
+  margin-top: 20px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  background-color: #3a2594;
+}
+
+.go-button:hover {
+  background-color: #0056b3;
+}
